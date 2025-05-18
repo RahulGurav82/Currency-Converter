@@ -4,6 +4,10 @@ A simple and elegant React application that allows users to convert between diff
 
 ![Currency Converter Screenshot](https://github.com/user-attachments/assets/ff63f259-19ee-418b-81f3-a2f124f43813)
 
+## Live Demo
+
+[Currency Converter App](https://currency-converter-indol-iota.vercel.app/)
+
 ## Features
 
 - Convert between 6 major currencies (USD, EUR, INR, GBP, JPY, CAD)
@@ -22,7 +26,7 @@ A simple and elegant React application that allows users to convert between diff
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/RahulGurav82/currency-converter.git
+   git clone https://github.com/yourusername/currency-converter.git
    cd currency-converter
    ```
 
@@ -33,7 +37,7 @@ A simple and elegant React application that allows users to convert between diff
 
 3. Create a `.env` file in the root directory and add your Exchange Rate API key:
    ```
-   VITE_APP_EXCHANGE_RATE_API_KEY=your_api_key_here
+   REACT_APP_EXCHANGE_RATE_API_KEY=your_api_key_here
    ```
 
 4. Start the development server:
@@ -41,7 +45,7 @@ A simple and elegant React application that allows users to convert between diff
    npm start
    ```
 
-5. Open your browser and navigate to `http://localhost:5173`
+5. Open your browser and navigate to `http://localhost:3000`
 
 ## API Configuration
 
