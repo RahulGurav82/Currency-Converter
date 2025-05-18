@@ -1,8 +1,7 @@
 import axios from 'axios'
 
 const api =  axios.create({
-    baseURL: "https://v6.exchangerate-api.com/v6/2c5c9e9685fd4575edfd2745"
-    // https://v6.exchangerate-api.com/v6/2c5c9e9685fd4575edfd2745/pair/EUR/GBP/1
+    baseURL: `https://v6.exchangerate-api.com/v6/${import.meta.env.VITE_APP_EXCHANGE_RATE_API_KEY}`
 });
 
 export const currencyConverter = (fromCurrency, toCurrency, amount) => {
