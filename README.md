@@ -37,7 +37,7 @@ A simple and elegant React application that allows users to convert between diff
 
 3. Create a `.env` file in the root directory and add your Exchange Rate API key:
    ```
-   REACT_APP_EXCHANGE_RATE_API_KEY=your_api_key_here
+   VITE_APP_EXCHANGE_RATE_API_KEY=your_api_key_here
    ```
 
 4. Start the development server:
